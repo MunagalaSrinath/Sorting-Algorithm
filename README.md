@@ -42,7 +42,10 @@ print(list_of_nums)
 
 ```
 ii)	#Insertion Sort
-```def selection_sort(nums):
+```Program to sort the elements in the list using the Selection Sort algorithm.
+Developed by: M Srinath
+RegisterNumber: 22000990
+def selection_sort(nums):
     for i in range(len(nums)):
         lowest_value_index = i
         for j in range(i+1, len(nums)):
